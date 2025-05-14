@@ -7,7 +7,7 @@ const Home = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
         >
-            <p>This content fades in and slides up when the page loads.</p>
+            <p>Home page.</p>
 
         </motion.div>
     )

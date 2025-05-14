@@ -11,12 +11,13 @@ const App = () => {
                 <div className="flex flex-col md:flex-row min-h-screen md:rounded-lg overflow-hidden shadow">
                     <Navbar />
 
-                    <main className="flex-1 bg-stone-900 md:p-6 p-3 text-white">
-                        {/* <Banner banner="Home" /> */}
-                        <Routes>
-                            <Route path="/" element={<Home />} />
-                            <Route path="/projects" element={<Projects />} />
-                        </Routes>
+                    <main className="flex-1 bg-stone-900 md:p-6 p-3 text-white overflow-hidden">
+                        <div className="max-h-[93vh] overflow-y-auto p-4 custom-scrollbar">
+                            <Routes>
+                                <Route path="/" element={<Home />} />
+                                <Route path="/projects" element={<Projects />} />
+                            </Routes>
+                        </div>
                     </main>
                 </div>
             </div>
