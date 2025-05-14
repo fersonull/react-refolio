@@ -16,9 +16,9 @@ const Navbar = () => {
 
     return (
         <div className="w-full md:w-64 bg-zinc-800 text-white md:p-6 flex md:flex-col p-3">
-            <Link to="/" className="text-2xl font-bold md:mb-8 text-amber-600 text-center flex items-center gap-1.5">
+            <Link to="/" className="text-2xl font-bold md:mb-8 text-amber-600 flex items-center justify-center gap-1.5 md:p-0 p-2">
                 <BugPlay />
-                JasCodeIt
+                <span>JasCodeIt</span>
             </Link>
             <ul className="md:flex md:flex-col md:items-start items-center hidden gap-1 relative">
                 {navItems.map(({ label, path }) => (
