@@ -52,7 +52,7 @@ I bring a diverse toolkit to the table, allowing me to tackle a wide range of pr
 
 ## <div align="center">📂 Featured Projects</div>
 
-Here are a few highlights from my portfolio that showcase my abilities:
+<!-- Here are a few highlights from my portfolio that showcase my abilities:
 
 **(Replace these with your actual projects. Aim for visually appealing descriptions.)**
 
@@ -74,7 +74,7 @@ Here are a few highlights from my portfolio that showcase my abilities:
 * **Key Technologies:** [List the main technologies used in this project (e.g., HTML, CSS, JavaScript).]
 * **[Optional: Link to a case study or more detailed explanation]**
 
-**(Consider adding more projects following the same format.)**
+**(Consider adding more projects following the same format.)** -->
 
 <br>
 
