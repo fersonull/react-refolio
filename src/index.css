@@ -5,6 +5,11 @@
 body {
   @apply bg-black font-poppins
 }
+
+.text-primary {
+  @apply text-amber-600 
+}
+
 /* 
 .custom-scrollbar {
   direction: rtl;

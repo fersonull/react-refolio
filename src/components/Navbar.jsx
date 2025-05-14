@@ -11,11 +11,13 @@ const Navbar = () => {
 
     const navItems = [
         { label: 'Start', path: '/' },
-        { label: 'Projects', path: '/projects' },
+        { label: 'About', path: '/about' },
+        { label: 'Skills', path: '/skills' },
+        { label: 'Portfolio', path: '/projects' },
     ]
 
     return (
-        <div className="w-full md:w-64 bg-zinc-800 text-white md:p-6 flex md:flex-col p-3">
+        <div className="w-full md:w-80 bg-zinc-800 text-white md:p-6 flex md:flex-col p-3 sticky top-0">
             <Link to="/" className="text-2xl font-bold md:mb-8 text-amber-600 flex items-center justify-center gap-1.5 md:p-0 p-2">
                 <BugPlay />
                 <span>JasCodeIt</span>
@@ -37,7 +39,6 @@ const Navbar = () => {
                         >
                             <span>{label}</span>
 
-                            {/* Arrow icon on active */}
                             {isActive(path) && (
                                 <motion.svg
                                     xmlns="http://www.w3.org/2000/svg"
