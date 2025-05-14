@@ -12,7 +12,7 @@ const App = () => {
                     <Navbar />
 
                     <main className="flex-1 bg-stone-900 md:p-6 p-3 text-white overflow-hidden">
-                        <div className="max-h-[93vh] overflow-y-auto p-4 custom-scrollbar">
+                        <div className="h-[93vh] overflow-y-auto p-4 custom-scrollbar">
                             <Routes>
                                 <Route path="/" element={<Home />} />
                                 <Route path="/projects" element={<Projects />} />
